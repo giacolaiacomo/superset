@@ -22,6 +22,8 @@ import {
   Preset,
   VizType,
 } from '@superset-ui/core';
+import { AdvancedTableCommodities } from '@superset-viz-plugins/superset-plugin-viz-advanced-table';
+import CalendarChartPlugin from '@superset-ui/legacy-plugin-chart-calendar';
 import CalendarChartPlugin from '@superset-ui/legacy-plugin-chart-calendar';
 import ChordChartPlugin from '@superset-ui/legacy-plugin-chart-chord';
 import CountryMapChartPlugin from '@superset-ui/legacy-plugin-chart-country-map';
@@ -103,6 +105,7 @@ export default class MainPreset extends Preset {
       name: 'Legacy charts',
       presets: [new DeckGLChartPreset()],
       plugins: [
+        new AdvancedTableCommodities().configure({ key: 'advanced-table-commodities' }),
         new BigNumberChartPlugin().configure({ key: VizType.BigNumber }),
         new BigNumberTotalChartPlugin().configure({
           key: VizType.BigNumberTotal,
