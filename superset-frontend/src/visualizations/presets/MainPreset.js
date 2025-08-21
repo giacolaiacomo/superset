@@ -24,7 +24,6 @@ import {
 } from '@superset-ui/core';
 import { AdvancedTableCommodities } from '@superset-viz-plugins/superset-plugin-viz-advanced-table';
 import CalendarChartPlugin from '@superset-ui/legacy-plugin-chart-calendar';
-import CalendarChartPlugin from '@superset-ui/legacy-plugin-chart-calendar';
 import ChordChartPlugin from '@superset-ui/legacy-plugin-chart-chord';
 import CountryMapChartPlugin from '@superset-ui/legacy-plugin-chart-country-map';
 import HorizonChartPlugin from '@superset-ui/legacy-plugin-chart-horizon';
