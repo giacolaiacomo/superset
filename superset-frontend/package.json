@@ -31,6 +31,7 @@
     "doc": "docs",
     "test": "spec"
   },
+  "private": true,
   "workspaces": [
     "packages/*",
     "plugins/*",
