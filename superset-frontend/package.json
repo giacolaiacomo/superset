@@ -367,7 +367,8 @@
   },
   "resolutions": {
     "@types/react": "^17.0.83",
-    "@types/react-dom": "^17.0.26"
+    "@types/react-dom": "^17.0.26",
+    "fsevents": "2.3.2"
   },
   "_id": "superset@0.0.0-dev"
 }
