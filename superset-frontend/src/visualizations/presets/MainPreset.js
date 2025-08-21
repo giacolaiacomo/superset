@@ -22,7 +22,7 @@ import {
   Preset,
   VizType,
 } from '@superset-ui/core';
-import SupersetPluginVizAdvancedTable from '../../../plugins/superset-plugin-viz-advanced-table/src';
+import SupersetPluginVizAdvancedTable from 'superset/superset-frontend/plugins/superset-plugin-viz-advanced-table/src';
 import CalendarChartPlugin from '@superset-ui/legacy-plugin-chart-calendar';
 import ChordChartPlugin from '@superset-ui/legacy-plugin-chart-chord';
 import CountryMapChartPlugin from '@superset-ui/legacy-plugin-chart-country-map';
